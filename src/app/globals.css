@@ -41,6 +41,7 @@ body {
   --tw-text-opacity: 0.4;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   font-weight: 400;
+  
 }
 
 .img-colors {
@@ -71,13 +72,13 @@ body {
 .circle2 {
   width: 310px;
   height: 310px;
-
+  margin-top: 195px;
 }
 
 .button-a {
   display: flex;
   justify-content: center;
-  margin-top: 30rem;
+  margin-top: 29rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -92,10 +93,14 @@ body {
   }
 
   .text-heder {
-    font-size: 29px;
+    font-size: 28px;
   }
 
   .text-heder1 {
-    font-size: 19px;
+    font-size: 18px;
+  }
+
+  .button-a {
+    margin-top: 29rem;
   }
 }
